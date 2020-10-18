@@ -172,3 +172,12 @@ endfunc
 func! CurrentFileDir(cmd)
     return a:cmd . " " . expand("%:p:h") . "/"
 endfunc
+
+set number
+set ruler
+set tabstop=4
+set clipboard=unnamed
+set list 
+set listchars=tab:▸\ ,trail:▫
+
+syntax enable
