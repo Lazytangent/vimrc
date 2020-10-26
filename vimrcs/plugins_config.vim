@@ -181,4 +181,4 @@ nnoremap <silent> <leader>d :GitGutterToggle<cr>
 
 
 " let g:airline_solarized_bg='dark'
-" let g:airline_theme='luna'
+let g:airline_theme='luna'
