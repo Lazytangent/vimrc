@@ -175,7 +175,7 @@ endfunc
 
 set number
 set ruler
-set tabstop=4
+" set tabstop=2
 set clipboard=unnamed
 set list
 set listchars=tab:▸\ ,trail:▫
