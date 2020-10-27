@@ -182,3 +182,11 @@ nnoremap <silent> <leader>d :GitGutterToggle<cr>
 
 " let g:airline_solarized_bg='dark'
 let g:airline_theme='luna'
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Vim-Markdown (vim-markdown)
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:vim_markdown_fenced_languages = [
+\  'css=css',
+\  'js=js',
+\]
