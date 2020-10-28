@@ -29,8 +29,8 @@ set guioptions-=L
 
 " Colorscheme
 set background=dark
-set termguicolors
-colorscheme deep-space
+" set termguicolors
+colorscheme peaksea
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
