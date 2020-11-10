@@ -18,7 +18,7 @@ elseif has("gui_gtk2")
 elseif has("linux")
     set gfn=IBM\ Plex\ Mono\ 14,:Hack\ 14,Source\ Code\ Pro\ 12,Bitstream\ Vera\ Sans\ Mono\ 11
 elseif has("unix")
-    set gfn=Monospace\ 11
+    set gfn=IBM\ Plex\ Mono\ 14,:Hack\ 14
 endif
 
 " Disable scrollbars (real hackers don't use scrollbars for navigation!)
