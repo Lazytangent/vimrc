@@ -37,8 +37,8 @@ map <leader>f :MRU<CR>
 """"""""""""""""""""""""""""""
 let g:yankstack_yank_keys = ['y', 'd']
 
-nmap <C-p> <Plug>yankstack_substitute_older_paste
-nmap <C-n> <Plug>yankstack_substitute_newer_paste
+" nmap <C-p> <Plug>yankstack_substitute_older_paste
+" nmap <C-n> <Plug>yankstack_substitute_newer_paste
 
 
 """"""""""""""""""""""""""""""
@@ -99,7 +99,7 @@ map <leader>nf :NERDTreeFind<cr>
 let g:multi_cursor_use_default_mapping=0
 
 " Default mapping
-let g:multi_cursor_start_word_key      = '<C-s>'
+let g:multi_cursor_start_word_key      = '<C-n>'
 let g:multi_cursor_select_all_word_key = '<A-s>'
 let g:multi_cursor_start_key           = 'g<C-s>'
 let g:multi_cursor_select_all_key      = 'g<A-s>'
