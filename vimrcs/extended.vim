@@ -175,10 +175,13 @@ func! CurrentFileDir(cmd)
 endfunc
 
 set number
+set relativenumber
 set ruler
 " set tabstop=2
 set clipboard=unnamed
 set list
 set listchars=tab:▸\ ,trail:▫
+nnoremap <leader>o o<Esc>
+nnoremap <leader>O O<Esc>
 
 syntax enable
