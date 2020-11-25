@@ -32,6 +32,8 @@ set background=dark
 " set termguicolors
 " colorscheme peaksea
 colorscheme darkblue
+
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Fast editing and reloading of vimrc configs
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
