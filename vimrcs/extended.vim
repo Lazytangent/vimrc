@@ -29,7 +29,7 @@ set guioptions-=L
 
 " Colorscheme
 set background=dark
-colorscheme peaksea
+colorscheme ron
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -181,3 +181,4 @@ set list
 set listchars=tab:▸\ ,trail:▫
 
 syntax enable
+set relativenumber
