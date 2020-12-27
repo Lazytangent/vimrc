@@ -30,8 +30,8 @@ set guioptions-=L
 " Colorscheme
 set background=dark
 " set termguicolors
-" colorscheme peaksea
-colorscheme darkblue
+colorscheme peaksea
+" colorscheme darkblue
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
