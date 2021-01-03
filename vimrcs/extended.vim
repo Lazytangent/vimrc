@@ -30,9 +30,9 @@ set guioptions-=L
 " Colorscheme
 set background=dark
 " set termguicolors
-colorscheme peaksea
+" colorscheme peaksea
 " colorscheme darkblue
-
+colorscheme onedark
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Fast editing and reloading of vimrc configs
