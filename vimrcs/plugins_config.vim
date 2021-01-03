@@ -188,5 +188,22 @@ let g:airline_theme='luna'
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:vim_markdown_fenced_languages = [
 \  'css=css',
-\  'js=js',
+\  'js=javascript',
+\  'html=html'
 \]
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Vim-plug
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+call plug#begin('~/.vim_runtime/my_plugins/plugged')
+
+Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+
+call plug#end()
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Vim-Visual-Multi
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:VM_maps = {}
+let g:VM_maps["Add Cursor Down"]      = '<A-C-Down>'
+let g:VM_maps["Add Cursor Up"]        = '<A-C-Up>'
