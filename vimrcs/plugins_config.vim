@@ -216,3 +216,7 @@ let g:VM_maps["Add Cursor Down"]      = '<A-C-Down>'
 let g:VM_maps["Add Cursor Up"]        = '<A-C-Up>'
 
 let g:tex_flavor='latex'
+
+" => Prettier
+nnoremap <Leader>py :Prettier<cr>
+
