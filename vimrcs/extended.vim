@@ -1,5 +1,5 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Important: 
+" Important:
 "       This requries that you install https://github.com/amix/vimrc !
 "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -18,7 +18,7 @@ elseif has("gui_gtk2")
 elseif has("linux")
     set gfn=IBM\ Plex\ Mono\ 14,:Hack\ 14,Source\ Code\ Pro\ 12,Bitstream\ Vera\ Sans\ Mono\ 11
 elseif has("unix")
-    set gfn=Monospace\ 11
+    set gfn=IBM\ Plex\ Mono\ 14,:Hack\ 14
 endif
 
 " Disable scrollbars (real hackers don't use scrollbars for navigation!)
@@ -29,8 +29,12 @@ set guioptions-=L
 
 " Colorscheme
 set background=dark
-colorscheme ron
+" colorscheme ron
 
+" set termguicolors
+" colorscheme peaksea
+" colorscheme darkblue
+colorscheme onedark
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Fast editing and reloading of vimrc configs
@@ -40,7 +44,7 @@ autocmd! bufwritepost ~/.vim_runtime/my_configs.vim source ~/.vim_runtime/my_con
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Turn persistent undo on 
+" => Turn persistent undo on
 "    means that you can undo even when you close a buffer/VIM
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 try
@@ -60,7 +64,7 @@ cno $j e ./
 cno $c e <C-\>eCurrentFileDir("e")<cr>
 
 " $q is super useful when browsing on the command line
-" it deletes everything until the last slash 
+" it deletes everything until the last slash
 cno $q <C-\>eDeleteTillSlash()<cr>
 
 " Bash like keys for the command line
@@ -121,7 +125,7 @@ endif
 vnoremap <silent> gv :call VisualSelection('gv', '')<CR>
 
 " Open Ack and put the cursor in the right position
-map <leader>g :Ack 
+map <leader>g :Ack
 
 " When you press <leader>r you can search and replace the selected text
 vnoremap <silent> <leader>r :call VisualSelection('replace', '')<CR>
@@ -164,7 +168,7 @@ func! DeleteTillSlash()
         else
             let g:cmd_edited = substitute(g:cmd, "\\(.*\[/\]\\).*/", "\\1", "")
         endif
-    endif   
+    endif
 
     return g:cmd_edited
 endfunc
@@ -174,11 +178,14 @@ func! CurrentFileDir(cmd)
 endfunc
 
 set number
+set relativenumber
 set ruler
-set tabstop=4
+" set tabstop=2
 set clipboard=unnamed
-set list 
+set list
 set listchars=tab:▸\ ,trail:▫
+nnoremap <leader>o o<Esc>
+nnoremap <leader>O O<Esc>
 
 syntax enable
 set relativenumber
