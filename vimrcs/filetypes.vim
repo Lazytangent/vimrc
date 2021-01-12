@@ -78,3 +78,5 @@ autocmd BufRead *.twig set syntax=html filetype=html
 " => Markdown
 """"""""""""""""""""""""""""""
 let vim_markdown_folding_disabled = 1
+
+au FileType markdown setl sw=2 ts=2 sts=2 et
