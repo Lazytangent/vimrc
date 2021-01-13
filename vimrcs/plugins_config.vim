@@ -223,4 +223,4 @@ nnoremap <Leader>py :Prettier<cr>
 
 " => emmet-vim
 let g:user_emmet_leader_key='<C-z>'
-let g:user_emmet_mode='n'             "only enable normal mode functions
+"let g:user_emmet_mode='n'             "only enable normal mode functions
