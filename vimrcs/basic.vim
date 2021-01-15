@@ -178,7 +178,7 @@ set noswapfile
 set expandtab
 
 " Be smart when using tabs ;)
-" set smarttab
+set smarttab
 
 " 1 tab == 4 spaces
 set shiftwidth=2
@@ -188,7 +188,7 @@ set tabstop=2
 set lbr
 set tw=500
 
-" set ai "Auto indent
+set ai "Auto indent
 set si "Smart indent
 set wrap "Wrap lines
 
