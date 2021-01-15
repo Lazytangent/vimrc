@@ -31,7 +31,7 @@ set guioptions-=L
 set background=dark
 " colorscheme ron
 
-" set termguicolors
+set termguicolors
 " colorscheme peaksea
 " colorscheme darkblue
 colorscheme onedark
